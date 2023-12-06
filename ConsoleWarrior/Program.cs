@@ -1,12 +1,14 @@
 ﻿namespace ConsoleWarrior
-    
-{
+
+{//
     using ConsoleWarrior.Utilities;
     internal class Program
     {
         static void Main(string[] args)
         {
+
             Console.CursorVisible = false;
+
             Functions.Print("\t\tWelcome to Cånzål Wharrjorz. What is your name?.");
             Console.Write("\t\tUsername: ");
             string userName = Functions.CursorReadLine();
